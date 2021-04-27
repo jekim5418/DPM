@@ -94,6 +94,7 @@ Comparison of performance in extrapolation between benchmark model and ours(DPM)
 |    Allen-Cahn    |     0.954     |    0.894    |  **0.868**  |
   
 # Citation
+```
 @misc{kim2020dpm,
       title={DPM: A Novel Training Method for Physics-Informed Neural Networks in Extrapolation}, 
       author={Jungeun Kim and Kookjin Lee and Dongeun Lee and Sheo Yon Jin and Noseong Park},
@@ -102,6 +103,7 @@ Comparison of performance in extrapolation between benchmark model and ours(DPM)
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
+```
   
 # Contact
 For questions about our paper or code, please contact [Jungeun Kim](mailto:jekim5418@yonsei.ac.kr).
