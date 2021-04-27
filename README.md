@@ -38,6 +38,7 @@ Motivated by this observation, we propose our method to improve the approximatio
    # Allen-Cahn
    python3 AC_parameter_opt_Adam_con_limit_ResNet_DPM.py --num_layers=[num_layers] --num_neurons=[num_neurons] --learning_rate=[learning_rate]  --epsilon=[epsilon] --delta=[delta] --w=[w]
    ```
+ - At each equation folder, there is 'equation_parameter_opt_Adam_weighted.py' file and it is a code for original PINN training for extrapolation. Also, 'equation_parameter_opt_Adam_weighted_ResNet.py' file is for ResNet PINN. 
    
   # Evaluation
   - Best hyperparameter is described in below.
