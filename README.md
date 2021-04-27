@@ -1,6 +1,6 @@
 # **D**ynamic **P**ulling **M**ethods(DPM)
 
-This is the official code for papers:
+This is the official code for paper:
  - [DPM: A Novel Training Method for Physics-Informed Neural Networks in Extrapolation](https://arxiv.org/abs/2012.02681)
 
 
