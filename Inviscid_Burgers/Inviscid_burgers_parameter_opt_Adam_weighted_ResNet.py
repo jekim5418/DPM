@@ -282,7 +282,7 @@ def main_loop(num_layers, num_neurons, learning_rate, weighted):
 
     start_time = time.time()
 
-    model = DPM_ResNet(X_u_train, u_train, X_f_train, layers, lb, ub, mu, mu1, mu2, learning_rate, weighted)
+    model = PhysicsInformedNN_ResNet(X_u_train, u_train, X_f_train, layers, lb, ub, mu, mu1, mu2, learning_rate, weighted)
 
     loss, loss_u, loss_f, mean_u_of_epoch, mean_f_of_epoch, mean_mape_u_of_epoch, var_u_of_epoch, var_f_of_epoch, var_mape_u_of_epoch, \
     worst_u_of_epoch, worst_f_of_epoch, worst_mape_u_of_epoch, epoch, error_u_extra, validation_error, best_it = model.train(30000, 50, 0.00001,
