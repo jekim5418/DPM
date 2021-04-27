@@ -103,4 +103,4 @@ Comparison of performance in extrapolation between benchmark model and ours(DPM)
 }
   
 # Contact
-For questions about our paper or code, please contact [Jungeun Kim](jekim5418@yonsei.ac.kr).
+For questions about our paper or code, please contact [Jungeun Kim](mailto:jekim5418@yonsei.ac.kr).
