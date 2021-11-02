@@ -490,7 +490,7 @@ if __name__ == "__main__":
     learning_rate = float(sys.argv[3])
     epsilon = float(sys.argv[4])
     delta = float(sys.argv[5])
-    w = float(sys.argv[1])
+    w = float(sys.argv[6])
     
     result = main_loop(num_layers, num_neurons, learning_rate, epsilon, delta, w)
     print(result)
