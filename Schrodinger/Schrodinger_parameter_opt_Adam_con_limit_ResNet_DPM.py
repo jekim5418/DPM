@@ -492,7 +492,7 @@ def main_loop(num_layers, num_neurons, learning_rate, epsilon, delta, w):
 
     layers = np.concatenate([[2], num_neurons * np.ones(num_layers), [2]]).astype(int).tolist()
 
-    data = scipy.io.loadmat('../Data/NLS.mat')
+    data = scipy.io.loadmat('../../Data/NLS.mat')
 
     t = data['tt'].flatten()[:, None]
     x = data['x'].flatten()[:, None]
