@@ -393,9 +393,9 @@ def main_loop(num_layers, num_neurons, learning_rate, epsilon, delta, w):
     N_u = 100
     N_f = 10000
 
-    d_mu = scipy.io.loadmat('../Data/burgers_mu.mat')
-    d_mu1 = scipy.io.loadmat('../Data/burgers_mu1.mat')
-    d_mu2 = scipy.io.loadmat('../Data/burgers_mu2.mat')
+    d_mu = scipy.io.loadmat('../../Data/burgers_mu.mat')
+    d_mu1 = scipy.io.loadmat('../../Data/burgers_mu1.mat')
+    d_mu2 = scipy.io.loadmat('../../Data/burgers_mu2.mat')
     mu = np.array(d_mu['mu'])
     mu1 = np.array(d_mu1['mu1'])
     mu2 = np.array(d_mu2['mu2'])
